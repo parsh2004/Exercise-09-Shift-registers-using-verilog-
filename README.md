@@ -56,10 +56,10 @@ A Parallel in Parallel out (PIPO) shift register is used as a temporary storage 
 
 
 ### PROGRAM 1:
-/*
+```
 Program for  Implementation-of Shift-registers-using-verilog-
-Developed by: VETRIVEL.S
-RegisterNumber:  212221240060
+Developed by: M Parshwanath
+RegisterNumber:  212221230073
 
 module sipo(c,si,po);
 input c,si;
@@ -72,7 +72,7 @@ temp = {temp[6:0],si};
 end
 assign po = temp;
 endmodule 
-*/
+```
 ### RTL LOGIC  REGISTERS   
 ![rtl 1](https://user-images.githubusercontent.com/95363138/172663764-480dbc80-b312-4bf4-a94e-68b48d84be0f.png)
 ### TIMING DIGRAMS FOR SHIFT REGISTERS
@@ -80,8 +80,8 @@ endmodule
 ### PROGRAM 2:
 ~~~
 Program for  Implementation-of Shift-registers-using-verilog-
-Developed by: VETRIVEL.S
-RegisterNumber:  212221240060
+Developed by: M Parshwanath
+RegisterNumber:  212221230073
 
 module piro(c,pi,so,load);
 input [3:0] pi;
@@ -109,8 +109,8 @@ endmodule
 ### PROGRAM 3:
 ~~~
 Program for  Implementation-of Shift-registers-using-verilog-
-Developed by: VETRIVEL.S
-RegisterNumber:  212221240060
+Developed by: M Parshwanath
+RegisterNumber:  212221230073
 
 module sipo(pi,po,clk);
 input clk;
